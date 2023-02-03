@@ -1,27 +1,8 @@
-@font-face {
-    font-family: 'KOTRAHOPE';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cafe24Ssurround';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 body{
     background: linear-gradient(LavenderBlush, azure);
     background-repeat: no-repeat;
 }
-.kotra{
-    font-family: 'KOTRAHOPE';
-}
 
-.cafe{
-    font-family: 'Cafe24Ssurround';
-}
 
 /* .block{
     background:white;
