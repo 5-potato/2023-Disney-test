@@ -13,7 +13,7 @@
 }
 body{
     background: linear-gradient(LavenderBlush, azure);
-    
+    background-repeat: no-repeat;
 }
 .kotra{
     font-family: 'KOTRAHOPE';
