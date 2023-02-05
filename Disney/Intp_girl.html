@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="./image/disney.png">
+        <meta property="og:title" content="Disney">
+        <meta property="og:description" content="#2023 #디즈니 #공주 #왕자 #오감자">
+        <meta property="og:type" content="website">
+        <title>Disney</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/Intp_girl.css">
+
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <script>
+        Kakao.init('999c81891c5eb7811ea326308bea4fb1');
+        </script>
+    </head>
+
+    <style>
+        body{
+            background:linear-gradient(lavender, lightblue);
+        }
+    </style>
+    <body>
+        <center><br>
+            <div class="kotra mt-3">
+                <span style="color:blue; font-size:40px">동화 속은 어떤 세상일까?</span>
+                <img src="./image/Intp_girl.png"><br>
+                <span style="color:cornflowerblue; font-size:50px">자스민 공주</span><br><br><br>
+                <img src="./image/Intp_princess.png">
+            </div>
+        </center><br>
+        <div class="box kotra mt-3">
+            <center><br>
+                <span style="color:blue; font-size:30px;">"자스민 공주인 당신.."</span><br>
+                <span style="background-color:lightblue; color:blue; font-size:20px">#공감제로</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="background-color:lightblue; color:blue; font-size:20px">#창의적인</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="background-color:lightblue; color:blue; font-size:20px">#무계획</span>
+                <hr style="width:95%; border: solid 2px blue">
+            </center><br>
+            <div class="what kotra mt-3">
+                <span style="font-size:25px">저는 이런 공주예요</span>
+            </div><br>
+            <div class="what_explain kotra mt-3">
+                1. 나라의 문제가 생기면, 나의 논리적인 분석 과정을 통해 문제를 해결하고 싶어.<br>
+                2. 공감능력이 부족해서 백성들의 감정적인 하소연은 들어주지 못해.<br>
+                3. 호불호가 확실해서 하기 싫은 일은 하지 않아. 나의 취향을 존중해줘.<br>
+                4. 계획은 무의미해. 계획적으로 하기 보다는 즉흥적인 의견을 피력하고 싶어.<br>
+                5. 매일 새로운 동화같은 일이 일어났으면 좋겠어. 반복된 일상은 지겨워.<br>
+            </div><br><br>
+            <div class="love kotra mt-3">
+                <span style="font-size:25px">저는 이런 사랑을 원해요</span>
+            </div><br>
+            <div class="love_explain kotra mt-3">
+                1. 인성도 보지만, 능력이 있는 사람을 선호하는 경향이 있어. 나를 책임질 수 있는 왕자님과 사랑을 하고 싶어.<br>
+                2. 난 아이디어 뱅크야! 브레밍 스토밍을 좋아해. 이러한 나의 아이디어를 듣고 피드백 해줄 수 있는 왕자님을 만나고 싶어.<br>
+                3. 처음 본 사람에게 먼저 다가가기가 어려워. 이런 나를 리드해줄 수 있는 왕자님이 좋아.<br>
+            </div><br><br>
+            <div class="lovebox kotra mt-3">
+                <span style="font-size:25px">왕자님과의 궁합은?</span>
+            </div><br>
+            <div class="success kotra mt-3">
+                ✓ 운명적인 사랑:
+                <span style="color:black">mbti</span>
+            </div>
+            <div class="fail kotra mt-3">
+                ✓ 비극적인 사랑:
+                <span style="color:black">mbti</span>
+            </div><br>
+        </div><br><br>
+        <center>
+        <div class="share kotra mt-3">
+            <button type="button mt-3" class="startBtn kotra" onClick="location.href='start.html'">다시하기</button><br><br>
+            <hr style="width:80%; border: solid 2px blue"><br>
+            <span style="font-size:25px; color:blue">결과 공유하기</span><br><br>
+            <img class="facebook col-lg-1 col-md-1 col-sm-2 img-fluid" src="./image/facebook.png" onclick="js:shareFacebook()">
+            <img class="kakao col-lg-1 col-md-1 col-sm-2 img-fluid" src="./image/kakao.png" onclick="js:sendLink()">
+            <img class="linkcopy col-lg-1 col-md-1 col-sm-2 img-fluid" src="./image/linkcopy.png" onclick="js:clip()">
+        </div>
+    </body>
+</html>

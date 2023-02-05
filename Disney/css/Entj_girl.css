@@ -1,0 +1,80 @@
+#Entj_girl{
+    text-align: center;
+    width: 80%;
+}
+
+.box{
+    background:white;
+    border-radius:15px;
+    width: 80%;
+    height:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what{
+    text-align:center;
+    background-color:purple;
+    color:white;
+    width:210px;;
+    height:30px;
+    margin-left:30px;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+.what_explain{
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.love{
+    text-align:center;
+    background-color:purple;
+    color:white;
+    width:210px;
+    height:30px;
+    margin-left:30px;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+.love_explain{
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.lovebox{
+    text-align:center;
+    background-color:darkviolet;
+    color:white;
+    width:210px;
+    height:30px;
+    margin-left:30px;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+.success{
+    color:darkviolet;
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.fail{
+    color:darkviolet;
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.startBtn{
+    border-radius: 60px;
+    width: 200px;
+    height: 40px;
+    color:white;
+    background-color:purple;
+}
