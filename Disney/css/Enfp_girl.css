@@ -1,0 +1,87 @@
+#Enfp_girl{
+    text-align: center;
+    width: 80%;
+}
+.Enfp_princess{
+    width: 500px;
+}
+
+.Enfp_girl{
+    width: 50px;
+}
+
+.box{
+    background:white;
+    border-radius:15px;
+    width: 80%;
+    height:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what{
+    text-align:center;
+    background-color:hotpink;
+    color:white;
+    width:210px;;
+    height:30px;
+    margin-left:30px;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+.what_explain{
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.love{
+    text-align:center;
+    background-color:hotpink;
+    color:white;
+    width:210px;
+    height:30px;
+    margin-left:30px;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+.love_explain{
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.lovebox{
+    text-align:center;
+    background-color:hotpink;
+    color:white;
+    width:210px;
+    height:30px;
+    margin-left:30px;
+    margin-right:auto;
+    border-radius:15px;
+}
+
+.success{
+    color:hotpink;
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.fail{
+    color:hotpink;
+    margin-left:35px;
+    line-height:40px;
+    font-size:20px;
+}
+
+.startBtn{
+    border-radius: 60px;
+    width: 200px;
+    height: 40px;
+    color:black;
+    background-color:lemonchiffon;
+}
