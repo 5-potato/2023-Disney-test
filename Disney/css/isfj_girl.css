@@ -1,12 +1,12 @@
-#Enfp_boy{
+#Isfj_girl{
     text-align: center;
     width: 80%;
 }
-.Enfp_prince{
+.ISfj_princess{
     width: 500px;
 }
 
-.Enfp_boy{
+.ISfj_girl{
     width: 50px;
 }
 
@@ -21,7 +21,7 @@
 
 .what{
     text-align:center;
-    background-color:darkolivegreen;
+    background-color:lightskyblue;
     color:white;
     width:210px;;
     height:30px;
@@ -38,7 +38,7 @@
 
 .love{
     text-align:center;
-    background-color:darkolivegreen;
+    background-color:lightskyblue;
     color:white;
     width:210px;
     height:30px;
@@ -55,7 +55,7 @@
 
 .lovebox{
     text-align:center;
-    background-color:darkolivegreen;
+    background-color:lightsteelblue;
     color:white;
     width:210px;
     height:30px;
@@ -65,14 +65,14 @@
 }
 
 .success{
-    color:darkolivegreen;
+    color:lightsteelblue;
     margin-left:35px;
     line-height:40px;
     font-size:20px;
 }
 
 .fail{
-    color:darkolivegreen;
+    color:lightsteelblue;
     margin-left:35px;
     line-height:40px;
     font-size:20px;

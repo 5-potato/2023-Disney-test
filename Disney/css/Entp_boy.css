@@ -22,7 +22,7 @@
 
 .what{
     text-align:center;
-    background-color:purple;
+    background-color:darkcyan;
     color:white;
     width:210px;;
     height:30px;
@@ -39,7 +39,7 @@
 
 .love{
     text-align:center;
-    background-color:purple;
+    background-color:darkcyan;
     color:white;
     width:210px;
     height:30px;
@@ -56,7 +56,7 @@
 
 .lovebox{
     text-align:center;
-    background-color:purple;
+    background-color:darkcyan;
     color:white;
     width:210px;
     height:30px;
@@ -66,14 +66,14 @@
 }
 
 .success{
-    color:purple;
+    color:darkcyan;
     margin-left:35px;
     line-height:40px;
     font-size:20px;
 }
 
 .fail{
-    color:purple;
+    color:darkcyan;
     margin-left:35px;
     line-height:40px;
     font-size:20px;
@@ -84,5 +84,5 @@
     width: 200px;
     height: 40px;
     color:white;
-    background-color:maroon;
+    background-color:skyblue;
 }
