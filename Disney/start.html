@@ -4,9 +4,12 @@
         <title>Disney</title>
         <link rel="stylesheet" href="./css/start.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel = "stylesheet" href = "./css/animaion.css">
+        <link rel = "stylesheet" href = "./css/qna.css">
     </head>
 
     <body>
+        <section id = "main">
         <center><br>
             <div class="kotra">
             <br><br><br><span style="color:white; font-size:50px; text-shadow: 2px 2px 2px gray;">너의 캐릭터는?</span>
@@ -21,9 +24,23 @@
                 </center> -->
                 <br><br>
                 <div class="test_button">
-                    <button class="start kotra" type="button" style="font-size:25px">테스트 하러가기</button>
+                    <button class="start kotra" type="button" style="font-size:25px" onclick="js:begin()">테스트 하러가기</button>
                 </div>
             </div> 
+        </section>
+        <section id ="qna">
+            <div class ="qBox">
+
+            </div>
+            <div class="answerBox">
+
+            </div>
+        </section>
             <br><br><br><br><br><br>
+
+            <script src="./js/data.js" charset="utf-8"></script>
+            <script src = "./js/start.js" charset="utf-8"></script>
+
+
     </body>
 </html>
