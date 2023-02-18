@@ -16,15 +16,16 @@ function goResult(){
 }
 
 
-//html 끝나는 부분 body에 마지막에 start.js 파일 실행하는 선언문 작성하기
 function addAnswerButton(answerText, qIndex){
     var a = document.querySelector('.answerBox');
     var answer = document.createElement('button');
     answer.classList.add('answerList');
     answer.classList.add('fadeIn');
-    //a에게 answer라는 버튼을 자식으로 추가되게 함
     a.appendChild(answer);
-    answer.innerHTML = answerText;
+   //div 태그 달아줌 (폰트 바꾸기 위해서)
+    answer.innerHTML = "<div class = 'answerText'>"+answerText+"</div>"
+
+    //답변이 선택되었을 때의 이벤트 추가
     answer.addEventListener("click",function(){
         var childrens = document.querySelectorAll('.answerList');
         for(let i =0;i<childrens.length;i++){
