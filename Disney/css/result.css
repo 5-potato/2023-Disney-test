@@ -1,3 +1,16 @@
+/*결과 페이지에 사용되는 css*/
+
 #result{
     display: none;
+}
+.resultText{
+    font-family: 'KOTRAHOPE';
+    text-align: center;
+}
+.resultButton{
+    width:210px;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
 }
