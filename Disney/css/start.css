@@ -43,6 +43,13 @@ body{
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.answerText{
+    font-family: 'KOTRAHOPE';
+    font-size:1.5rem;
+
+}
+
+
 .start:hover {
     background-color: #d38aff;
 }
