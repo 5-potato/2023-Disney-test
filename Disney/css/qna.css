@@ -15,8 +15,10 @@
     border-radius:20px;
     font-size: 20px;
     display: block;
-    width:100%;
+    width:90%;
     border:0px;
+    margin: 30px;
+    margin-left: 50px;
 }
 .answerList:hover, .answerList:focus{
     background-color: pink;
