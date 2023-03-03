@@ -18,11 +18,11 @@ const qnaList=[
         a:[
             {
                 answer:"너무 속상하다 숲속 친구들과 노래하며 위안삼는다",
-                type:"FT",
+                type:"F",
             },
             {
                 answer:"어쩔 수 없지 엄마 말은 잘 듣는다",
-                type:"FT",
+                type:"T",
             },
         ],
     },
@@ -32,11 +32,11 @@ const qnaList=[
         a:[
             {
                 answer:"미리 입고 갈 최고급 원단 의상을 준비해야겠다",
-                type:"JP"
+                type:"J"
             },
             {
                 answer:"당일에 친한 공주/왕자에게 빌리자!",
-                type:"JP",
+                type:"P",
             },
         ],
     },
@@ -46,11 +46,11 @@ const qnaList=[
         a:[
             {
                 answer:"다음엔 갈 수 있을거라고 위로해준다",
-                type:"FT",
+                type:"F",
             },
             {
                 answer:"‘니가 못났으니까 못 가지’ 속으로 생각한다.",
-                type:"FT",
+                type:"T",
                 
             },
         ],
@@ -61,11 +61,11 @@ const qnaList=[
         a:[
             {
                 answer:"어디계시나요 저의 왕자/공주님?",
-                type:"SN",
+                type:"N",
             },
             {
                 answer:"운명적인 만남은 없어..",
-                type:"SN",
+                type:"S",
             },
         ],
     },
@@ -75,11 +75,11 @@ const qnaList=[
         a:[
             {
                 answer:"앞에 모르는 사람들에게 길을 물어보자!",
-                type:"IE",
+                type:"E",
             },
             {
                 answer:"안내 표지판과 지도를 보며 찾아가자!",
-                type:"IE",
+                type:"I",
             },
         ],
     },
@@ -89,11 +89,11 @@ const qnaList=[
         a:[
             {
                 answer:"앞으로 나에게 환상적인 일이 펼쳐질 것만 같다. 가본다!",
-                type:"SN",
+                type:"N",
             },
             {
                 answer:"새로운 모험은 너무 위험해!",
-                type:"SN",
+                type:"S",
             },
         ],
 
@@ -104,11 +104,11 @@ const qnaList=[
         a:[
             {
                 answer:"피곤해.. 벌써부터 집에 가고 싶다",
-                type:"IE",
+                type:"I",
             },
             {
-                aswer:"와 무도회장이라니 너무 신난다! 다른 사람들이랑 사진도 찍고 이야기 나누어야지~!",
-                type:"IE",
+                answer:"너무 신난다! 다른 사람들이랑 사진도 찍고 이야기 나누어야지~!",
+                type:"E",
             },
         ],
     },
@@ -118,11 +118,11 @@ const qnaList=[
         a:[
             {
                 answer:"적극적으로 말을 걸어 나의 마음을 표현한다",
-                type:"IE",
+                type:"E",
             },
             {
                 answer:"멀리서 지켜본다",
-                type:"IE",
+                type:"I",
             },
         ],
     },
@@ -131,11 +131,11 @@ const qnaList=[
         a:[
             {
                 answer:"마음이 아프더라도 공감해주고 응원해준다",
-                type:"FT",
+                type:"F",
             },
             {
                 answer:"이어질 수 없다며 밑밥을 깐다",
-                type:"FT",
+                type:"T",
             },
         ],
     },
@@ -145,11 +145,11 @@ const qnaList=[
         a:[
             {
                 answer:"데이트 코스를 미리 정해보자!",
-                type:"JP",
+                type:"J",
             },
             {
                 answer:"나는 즉흥적으로 가고 싶은 곳에 갈래!",
-                type:"JP",
+                type:"P",
             },
         ],
     },
@@ -159,11 +159,11 @@ const qnaList=[
         a:[
             {
                 answer:"철저히 준비된 계획대로 함께 도망치자!",
-                type:"JP",
+                type:"J",
             },
             {
                 answer:"일단 뛰고 보자!",
-                type:"JP",
+                type:"P",
             },
         ],
     },
@@ -173,18 +173,13 @@ const qnaList=[
         a:[
             {
                 answer:"새로운 메뉴를 먹어보자!",
-                type:"SN",
+                type:"N",
             },
             {
                 answer:"안전한게 좋아! 항상 먹던 메뉴를 주문할래",
-                type:"SN",
+                type:"S",
             },
         ],
     }
-
-]
-
-//마지막 결과 부분
-var infoList = [
 
 ]
